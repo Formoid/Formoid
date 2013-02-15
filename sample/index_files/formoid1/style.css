@@ -1,0 +1,475 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,greek-ext,cyrillic-ext,greek,vietnamese,cyrillic,latin-ext";
+#formoid{
+	font-size:14px;
+	font-size:16px;
+	width:400px;
+	margin:0 auto;
+}
+#formoid>div{
+	margin: 8px;
+}
+.frmd{
+	display:none;
+}#formoid{
+	-webkit-border-radius: 4px;	
+	   -moz-border-radius: 4px;	
+			border-radius: 4px;	
+}
+#formoid,
+#formoid div.selector,
+#formoid  select,
+#formoid input[type=button],
+#formoid input[type=submit] {
+	font-family: "Open Sans","Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
+	color: #666;
+	padding: 5px;
+}
+#formoid h2 {
+	margin: 0.2em 0;
+}
+
+#formoid label {
+	font-size: 1em;
+	display: block;
+	margin-bottom: 3px;
+	clear: both;
+}
+
+/* Global Declaration */
+
+
+#formoid .selector, 
+#formoid .uploader,
+#formoid .uploader *{
+  margin: 0;
+  padding: 0;
+}
+	
+
+
+/* SPRITES */
+
+/* Uploader */
+
+#formoid div.uploader {
+  /*-background-position: 0px -297px;*/
+  /*height: 28px;*/
+  width: 210px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+}
+
+#formoid div.uploader span.action {
+	margin-left: -1px;
+	margin-bottom: 0;
+	vertical-align: top;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #f5f5f5;
+	*background-color: #e6e6e6;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-repeat: repeat-x;
+	border: 1px solid #bbbbbb;
+	*border: 0;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-bottom-color: #a2a2a2;
+	-webkit-border-radius: 0 4px 4px 0;
+	   -moz-border-radius: 0 4px 4px 0;
+		    border-radius: 0 4px 4px 0;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	*zoom: 1;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+		    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+		  
+	display: inline-block;
+
+	padding: 5px 12px;
+	text-align: center;
+	
+	float: left;
+	display: inline;
+	
+	overflow: hidden;
+	cursor: pointer;
+	width: 80px;
+	text-align: center;
+}
+
+#formoid div.uploader:hover span.action,#formoid div.uploader.hover span.action {
+	background-position: 0 -15px;
+	color: #333333;
+	text-decoration: none;
+	-webkit-transition: background-position 0.1s linear;
+       -moz-transition: background-position 0.1s linear;
+         -o-transition: background-position 0.1s linear;
+            transition: background-position 0.1s linear;
+	background-color: #E6E6E6;
+}
+#formoid div.uploader:active span.action,#formoid div.uploader.active span.action{
+	background-color: #E6E6E6;
+	background-image: none;
+	-webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+       -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	outline: 0 none;	
+	color: #333333;
+}
+
+#formoid div.uploader span.filename {
+	/* change this line to adjust positioning of filename area */
+    border-color: #DDDDDD;
+	border-radius: 4px 0 0 4px;
+	
+	background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+       -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	/*height: 20px;*/
+	
+	padding: 5px 6px;
+	margin-left: 0;
+	
+    /*transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;	*/
+	float: left;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	cursor: default;
+
+	color: #777;
+	width: 82px;
+	border-right: solid 1px #bbb;
+}
+
+
+#formoid div.uploader input {
+	opacity: 0;
+	filter: alpha(opacity:0);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	float: right;
+	height: 25px;
+	border: none;
+	cursor: default;
+/*	width: 100%;*/
+}
+
+#formoid div.uploader.disabled span.action {
+	color: #aaa;
+}
+
+#formoid div.uploader.disabled span.filename {
+	border-color: #ddd;
+	color: #aaa;
+}
+
+
+/* Select */
+
+#formoid div.selector span{
+	background:url(./down.png) no-repeat right center;
+	padding-right:10px;
+}
+
+#formoid div.selector select {
+  width:100%;
+  top: 0px;
+  left: 0px;
+}
+
+
+/*
+
+CORE FUNCTIONALITY 
+
+Not advised to edit stuff below this line
+-----------------------------------------------------
+*/
+
+#formoid .selector, 
+#formoid .button, 
+#formoid .uploader {
+  display: -moz-inline-box;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  *display: inline;
+}
+
+#formoid .selector select:focus, 
+#formoid .uploader input:focus {
+  outline: 0;
+}
+
+/* Button & submit*/
+#formoid div.selector,
+#formoid  select,
+#formoid input[type=button],
+#formoid input[type=submit]{
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  color: #666666;
+  text-align: center;
+  font-size: 1em;
+/*  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);*/
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  *background-color: #e6e6e6;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  border: 1px solid #bbbbbb;
+  *border: 0;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#formoid div.selector:hover,
+#formoid div.selector.hover
+#formoid  select:hover,
+#formoid input[type=button]:hover,
+#formoid input[type=button]:active,
+#formoid input[type=button][disabled]{
+  color: #333333;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+#formoid div.selector:active,
+#formoid  select:active,
+#formoid input[type=button]:active{
+  background-color: #cccccc;
+}
+
+#formoid div.selector:hover,
+#formoid  select:hover,
+#formoid input[type=button]:hover {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+#formoid div.selector:active,
+#formoid  select:active,
+#formoid input[type=button]:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#formoid input[type=button][disabled] {
+  cursor: default;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+#formoid input[type=submit] {
+	background-color: #006dcc;
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-image: -moz-linear-gradient(top, #67c2ef, #2FABE9);
+	background-image: -ms-linear-gradient(top, #67c2ef, #2FABE9);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#67c2ef), to(#2FABE9));
+	background-image: -webkit-linear-gradient(top, #67c2ef, #2FABE9);
+	background-image: -o-linear-gradient(top, #67c2ef, #2FABE9);
+	background-image: linear-gradient(top, #67c2ef, #2FABE9);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#67c2ef', endColorstr='#2FABE9', GradientType=0);
+	border-color: #1598d9 #1598d9 #007bb8 #1598d9;
+}
+
+#formoid input[type=submit]:hover {
+  background-color: #2FABE9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#47b4eb', endColorstr='#2FABE9', GradientType=0);
+  color: #ffffff;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+#formoid input[type=submit]:active,
+#formoid input[type=submit][disabled] {
+	background-color: #2FABE9;
+	*background-color: #2FABE9;
+    background-image: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    outline: 0 none;
+}
+
+
+/* Select */
+
+#formoid div.selector {
+  position: relative;
+  padding-left: 10px;
+  overflow: hidden;
+  line-height:1.6;
+}
+
+#formoid div.selector span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#formoid div.selector select {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity:0);
+  border: none;
+  background: none;
+}
+
+
+/* Radio & checkbox */
+#formoid input[type=checkbox],
+#formoid input[type=radio]{
+	z-index:1;
+	position:relative;
+	opacity:0.01;
+	height: 19px;
+	width: 19px;
+	margin: 0;
+	vertical-align:middle;
+}
+#formoid input[type=checkbox]+span,
+#formoid input[type=radio]+span{
+	height: 19px;
+	margin-right:-19px;
+	padding-left: 19px;
+	z-index:0;
+	position:relative;
+	display:inline-block;
+	left:-19px;
+	top:0px;
+	background:url(./check-radio-bg.png) no-repeat 0 0;
+}
+#formoid input[type=checkbox]:hover+span{
+	background-position:0 -38px;
+}
+#formoid input[type=checkbox]:active+span{
+	background-position:0 -19px;
+}
+#formoid input[type=checkbox]:checked+span{
+	background-position:0 -76px;
+}
+#formoid input[type=checkbox]:checked:hover+span{
+	background-position:0 -114px;
+}
+#formoid input[type=checkbox]:checked:active+span{
+	background-position:0 -95px;
+}
+#formoid input[type=radio]+span{
+	background-position:0 -190px;
+}
+#formoid input[type=radio]:hover+span{
+	background-position:0 -228px;
+}
+#formoid input[type=radio]:active+span{
+	background-position:0 -209px;
+}
+#formoid input[type=radio]:checked+span{
+	background-position:0 -266px;
+}
+#formoid input[type=radio]:checked:hover+span{
+	background-position:0 -304px;
+}
+#formoid input[type=radio]:checked:active+span{
+	background-position:0 -285px;
+}
+
+#formoid input[type=text],
+#formoid input[type=password],
+#formoid textarea {
+	width: 96%;
+	padding: 6px 2%;
+	margin-left:-1px;
+
+	font-size: 1em;
+	font-weight: normal;
+	padding: 6px;
+	color: #777;
+	/*background-image: -ms-linear-gradient(top, #444444, #999999); /* IE10 */
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#22000000', EndColorStr='#00FFFFFF'); /* IE6�IE9 */
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#999999)); /* Saf4+, Chrome */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.18), rgba(0,0,0,0) 4px, rgba(0,0,0,0) ); /* FF3.6 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.18), rgba(0,0,0,0) 4px, rgba(0,0,0,0) ); /* Chrome 10+, Saf5.1+ */
+	background-image: -o-linear-gradient(top, rgba(0,0,0,0.18), rgba(0,0,0,0) 4px, rgba(0,0,0,0) ); /* Opera 11.10+ */
+	background-image: linear-gradient(top, rgba(0,0,0,0.18), rgba(0,0,0,0) 5px, rgba(0,0,0,0) );
+	border-top: solid 1px #aaa;
+	border-left: solid 1px #aaa;
+	border-bottom: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	outline: 0;
+}
+
+#formoid input[type=text]:focus,
+#formoid input[type=password]:focus,
+#formoid textarea:focus {
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+	border-color: rgba(82, 168, 236, 0.8);
+	/*background-image: -ms-linear-gradient(top, #444444, #999999); /* IE10 */
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#22000000', EndColorStr='#00FFFFFF'); /* IE6�IE9 */
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#999999)); /* Saf4+, Chrome */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.19), rgba(0,0,0,0) 5px, rgba(0,0,0,0) ); /* FF3.6 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.19), rgba(0,0,0,0) 5px, rgba(0,0,0,0) ); /* Chrome 10+, Saf5.1+ */
+	background-image: -o-linear-gradient(top, rgba(0,0,0,0.19), rgba(0,0,0,0) 5px, rgba(0,0,0,0) ); /* Opera 11.10+ */
+	background-image: linear-gradient(top, rgba(0,0,0,0.19), rgba(0,0,0,0) 5px, rgba(0,0,0,0) );
+	transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+
+
+

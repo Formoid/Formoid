@@ -1,0 +1,30 @@
+{
+"name": "jQuery Form",
+"title": "jQuery Form - Beautiful Web Form Generator",
+"description": "Formoid - Super Easy HTML Contact Forms, Email Form Designer. * EASY TO USE - Build any type of web form with no technical experience necessary. * YOUR OWN LOOK - Create beautiful and elegant forms for your website or blog. Use your own styles, logo and colors. * DRAG & DROP BUILDER - Drag and drop form elements to quickly make amazing forms. * FILES & ATTACHMENTS - With File Upload Field, you can collect user documents, photos, etc. via your form.",
+"keywords": [ "formoid", "form", "generator", "maker", "designer", "software", "javascript", "jquery", "plugin", "css", "signup", "survey", "order", "registration"],
+"version": "1.2",
+"author": {
+"name": "Formoid.com",
+"url": "http://formoid.com"
+},
+"maintainers": [
+{
+"name": "Formoid.com",
+"url": "http://formoid.com"
+}
+],
+"licenses": [
+{
+"type": "Free",
+"url": "http://formoid.com"
+}
+],
+"bugs": "https://github.com/formoid/formoid/issues",
+"homepage": "http://formoid.com",
+"docs": "http://formoid.com",
+"download": "http://formoid.com",
+"dependencies": {
+"jquery": ">=1.7"
+}
+}

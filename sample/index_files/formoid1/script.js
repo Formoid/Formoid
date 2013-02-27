@@ -1,0 +1,1 @@
+jQuery("#formoid").find("input[type=file],select").uniform();

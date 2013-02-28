@@ -1,5 +1,5 @@
 <a href="http://formoid.com">
-  <img src="http://formoid.github.com/formoid/img/formoid.jpg" width="323px">
+  <img src="http://formoid.github.com/Formoid/formoid.jpg">
 </a>
 
 # [Formoid](http://formoid.com)

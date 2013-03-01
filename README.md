@@ -22,4 +22,3 @@ Three quick start options are available:
 ## Copyright
 
 Copyright 2013 Formoid.com.
-

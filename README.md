@@ -4,7 +4,7 @@
 
 # [Formoid](http://formoid.com)
 
-Formoid is a surprisingly simple, intuitive, and powerful app for faster web form development, wireframing and embedding.
+Formoid is a surprisingly simple, intuitive, and powerful app for faster web form development, wireframing and embedding. Create signup forms, surveys, order forms, event registrations and more in a few seconds!
 
 To get started, checkout [http://formoid.com](http://formoid.com) or see [online demo](http://formoid.github.com/Formoid/)!
 

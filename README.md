@@ -18,6 +18,10 @@ Three quick start options are available:
 * Drop form elements and tweak settings.
 * Publish and get the ready code.
 
+## Some Live Demos
+
+*    [Registration Form - Metro template demo](http://formoid.com/demo-registraion.html)
+
 
 ## Copyright
 

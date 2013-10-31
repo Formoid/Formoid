@@ -21,6 +21,7 @@ Three quick start options are available:
 ## Some Live Demos
 
 *    [Registration Form - Metro template demo](http://formoid.com/demo-registraion.html)
+*    [Comment Form - Default template demo](http://formoid.com/demo-comment.html)
 
 
 ## Copyright

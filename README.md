@@ -23,6 +23,7 @@ Three quick start options are available:
 *    [Registration Form - Metro template demo](http://formoid.com/demo-registraion.html)
 *    [Comment Form - Default template demo](http://formoid.com/demo-comment.html)
 *    [Bug Report Form - Flat template demo](http://www.formoid.com/demo-bug-report.html)
+*    [Responsive form demo - Default template](http://www.formoid.com/responsive.html)
 
 
 ## Copyright

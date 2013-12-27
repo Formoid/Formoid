@@ -1,8 +1,10 @@
+# [Formoid](http://formoid.com)
+
 <a href="http://formoid.com">
   <img src="http://formoid.github.com/Formoid/formoid.jpg">
 </a>
 
-# [Formoid](http://formoid.com)
+
 
 Formoid is a surprisingly simple, intuitive, and powerful app for faster web form development, wireframing and embedding. Create signup forms, surveys, order forms, event registrations and more in a few seconds!
 

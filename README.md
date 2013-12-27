@@ -1,13 +1,14 @@
 # [Formoid](http://formoid.com)
+Formoid is a surprisingly simple, intuitive, and powerful app for faster web form development, wireframing and embedding. 
+Create signup forms, surveys, order forms, event registrations and more in a few seconds! No coding!
+Modern Flat, Metro, Bootstrap form themes, pure CSS styled, fully responsive, retina-ready, as-you-type HTML5 or jQuery form validation, anti-spam captcha 
+- all you need to create your best forms.
 
 <a href="http://formoid.com">
-  <img src="http://formoid.github.com/Formoid/formoid.jpg">
+  <img src="http://formoid.github.io/images/bootstrap-forms.png">
 </a>
 
 
-
-Formoid is a surprisingly simple, intuitive, and powerful app for faster web form development, wireframing and embedding. 
-Create signup forms, surveys, order forms, event registrations and more in a few seconds! No coding!
 
 To get started, checkout [http://formoid.com](http://formoid.com) or see [online demo](http://formoid.github.com/Formoid/)!
 
@@ -20,6 +21,10 @@ To get started, checkout [http://formoid.com](http://formoid.com) or see [online
 
 ## Quick start
 
+<a href="http://formoid.com">
+  <img src="http://formoid.github.io/images/formoid.jpg">
+</a>
+
 Three quick start options are available:
 
 * [Download the latest version for Windows or Mac](http://formoid.com).
@@ -28,7 +33,7 @@ Three quick start options are available:
 
 ## Features
 
-    # GUI Wizard
+### GUI Wizard
 *   No-brainer Form Generator - No css/html/javacript coding, just drag-n-drop. 
 *    For Mac and Windows - Supports Mac OSX 10.6+, Windows XP, Vista, 7 or 8
 *    Fully Customizable
@@ -36,10 +41,10 @@ Three quick start options are available:
 *    Live Preview 
 *    Standard Fields 
 *    Advanced Fields
-*    Mandatory fields 
+*    Mandatory fields
 *    Anti-spam captcha 
 
-    # HTML Forms
+### HTML Forms
 *    Awesome skins - Modern Flat, Metro, Bootstrap form designs with fancy color schemes
 *    Responsive forms 
 *    Widest browser and device compatibility 
@@ -48,19 +53,21 @@ Three quick start options are available:
 *    Pure CSS styled
 *    Live validation
 
-    #PHP Forms
+### PHP Forms
 *    Handling Forms with PHP 
 *    No Coding 
 *    Email Contact Forms 
 *    Export to CSV
 
-    #Hosted Online Forms
+### Hosted Online Forms
 *    One-click publishing, preview and test
 *    Easy sharing & embedding 
 *    Instant email notifications 
 *    Collect attachments 
 *    Full control
 *    Secure forms 
+
+
 
 ## Copyright
 

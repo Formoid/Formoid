@@ -1,8 +1,8 @@
 # [Formoid](http://formoid.com)
-Formoid is a surprisingly simple, intuitive, and powerful app for faster web form development, wireframing and embedding. 
+Formoid is a surprisingly simple, intuitive, and powerful bootstrap form builder for faster web form development, wireframing and embedding. 
 Create signup forms, surveys, order forms, event registrations and more in a few seconds! No coding!
-Modern Flat, Metro, Bootstrap form themes, pure CSS styled, fully responsive, retina-ready, as-you-type HTML5 or jQuery form validation, anti-spam captcha 
-- all you need to create your best forms.
+Modern Flat, Metro, Bootstrap form themes, pure CSS styled, fully responsive, retina-ready, as-you-type HTML5 or jQuery bootstrap form validation, anti-spam captcha - all you need to create your best forms.
+To get started, checkout [http://formoid.com](http://formoid.com) or see [online demo](http://formoid.com/index.html#demo-b)!
 
 <a href="http://formoid.com">
   <img src="http://formoid.github.io/images/bootstrap-forms.png">
@@ -10,14 +10,14 @@ Modern Flat, Metro, Bootstrap form themes, pure CSS styled, fully responsive, re
 
 
 
-To get started, checkout [http://formoid.com](http://formoid.com) or see [online demo](http://formoid.github.com/Formoid/)!
+
 
 ## Some More Live Demos
 
-*    [Bootstrap Form](http://formoid.github.io/bootstrap-form.html) - Metro Style Demo
-*    [Comment Form](http://formoid.com/demo-comment.html) - Bootstrap 2.0 Form Skin
-*    [Flat Design Demo](http://www.formoid.com/demo-bug-report.html)
-*    [Responsive Form Demo](http://www.formoid.com/responsive.html) - Bootstrap Form Skin
+*    [Bootstrap Form Example](http://formoid.github.io/bootstrap-form.html) - Metro Style Demo
+*    [Contact Form](http://formoid.com/demo-comment.html) - Bootstrap Contact Form Skin
+*    [Flat Form](http://www.formoid.com/demo-bug-report.html)
+*    [Responsive Form](http://www.formoid.com/responsive.html) - Twitter Bootstrap Form Skin
 
 ## Quick start
 
@@ -71,4 +71,4 @@ Three quick start options are available:
 
 ## Copyright
 
-Copyright 2013 Formoid.com.
+Copyright 2013 Formoid.com - bootstrap form generator.

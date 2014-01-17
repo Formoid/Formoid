@@ -3,7 +3,7 @@
 "title": "jQuery Form - Fancy Web Form Designer",
 "description": "Formoid - Super Easy jQuery Contact Forms, Online Email Form Maker. * Easy - Build any type of HTML form with no coding. * Nice - Create beautiful and elegant forms for your website or blog. Use your own or pre-designed styles. * Drag-n-Drop wizard - Drag and drop form elements to quickly make amazing forms. * File uploads - Collect user documents, photos, etc. via your form.",
 "keywords": [ "formoid", "form", "ui", "maker", "javascript", "jquery", "plugin", "css", "html5", "survey", "input", "ajax"],
-"version": "2.3.15",
+"version": "2.3.16",
 "author": {
 "name": "Formoid.com",
 "url": "http://formoid.com"

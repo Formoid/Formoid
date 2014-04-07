@@ -16,8 +16,8 @@ To get started, checkout [http://formoid.com](http://formoid.com) or see [online
 
 *    [Bootstrap Form Example](http://formoid.github.io/bootstrap-form.html) - Metro Style Demo
 *    [Contact Form](http://formoid.com/demo-comment.html) - Bootstrap Contact Form Skin
-*    [Flat Form](http://www.formoid.com/demo-bug-report.html)
-*    [Responsive Form](http://www.formoid.com/responsive.html) - Twitter Bootstrap Form Skin
+*    [Flat Form](http://www.formoid.com/demo-bug-report.html) - Flat Form Skin
+*    [Responsive Form](http://www.formoid.com/responsive.html) - Solid Form Skin
 
 ## Quick start
 

@@ -71,4 +71,4 @@ Three quick start options are available:
 
 ## Copyright
 
-Copyright 2013 Formoid.com - bootstrap form generator.
+Copyright 2015 Formoid.com - bootstrap form generator.

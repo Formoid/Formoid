@@ -24,7 +24,7 @@ To get started, checkout [http://formoid.com](http://formoid.com) or see [online
 <a href="http://formoid.com">
   <img src="http://formoid.github.io/images/formoid.jpg">
 </a>
-
+ 
 Three quick start options are available:
 
 * [Download the latest version for Windows or Mac](http://formoid.com).

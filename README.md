@@ -45,7 +45,7 @@ Three quick start options are available:
 *    Anti-spam captcha 
 
 ### HTML Forms
-*    Awesome skins - Modern Flat, Metro, Bootstrap form designs with fancy color schemes
+*    Beautiful skins - Modern Flat, Metro, Bootstrap form designs with fancy color schemes
 *    Responsive forms 
 *    Widest browser and device compatibility 
 *    Retina Ready 

@@ -37,8 +37,8 @@ Three quick start options are available:
 *   No-brainer Form Generator - No css/html/javacript coding, just drag-n-drop. 
 *    For Mac and Windows - Supports Mac OSX 10.6+, Windows XP, Vista, 7 or 8
 *    Fully Customizable
-*    Color Schemes
-*    Live Preview 
+*    Live Preview
+*    Color Schemes 
 *    Standard Fields 
 *    Advanced Fields
 *    Mandatory fields

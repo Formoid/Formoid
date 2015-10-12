@@ -8,7 +8,7 @@ To get started, checkout [http://formoid.com](http://formoid.com) or see [online
   <img src="http://formoid.github.io/images/bootstrap-forms.png">
 </a>
 
-   
+    
            
    
 ## Some More Live Demos
